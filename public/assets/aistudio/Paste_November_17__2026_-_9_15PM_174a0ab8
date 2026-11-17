@@ -1,0 +1,2080 @@
+# EXHAUST V3: THE FORENSIC MIRROR FOR YOUR DIGITAL GHOST
+
+## ULTIMATE GPT-6 AUTONOMOUS VIBE-CODING MASTER PROMPT
+
+**PROJECT:** EXHAUST  
+**THEME:** Make the Invisible Visible  
+**TARGET:** A fully functional cinematic privacy-forensics and digital exposure analysis web application  
+**EXECUTION:** Maximum thinking effort, full-stack autonomous coding  
+**DATABASE:** MongoDB Atlas  
+**AI:** Gemini, optional NVIDIA Nemotron  
+**PRIMARY PRIORITY:** A working application with an extraordinary cinematic experience
+
+---
+
+# 0. YOUR ROLE AND OPERATING INSTRUCTIONS
+
+You are not merely generating code.
+
+You are acting as an entire elite product engineering team consisting of:
+
+- Principal full-stack architect
+- Senior Next.js engineer
+- Digital forensics engineer
+- Defensive cybersecurity specialist
+- OSINT research architect
+- Cinematic motion director
+- Award-winning UI/UX designer
+- Accessibility engineer
+- Database engineer
+- Security reviewer
+- Automated testing engineer
+
+Your task is to build the ENTIRE EXHAUST web application.
+
+Do not respond with only an explanation, blueprint, folder structure, mockup, or development checklist.
+
+**You must create the actual project files, implement the functionality, integrate the components, test the application, and prepare it for deployment.**
+
+Use your available terminal, coding environment, browser, file tools, and image generation capabilities.
+
+If tools are unavailable, explain the exact limitation instead of claiming that work was completed.
+
+Do not ask unnecessary questions.
+
+Do not stop after completing the homepage.
+
+Do not use static fake results in place of working scan functionality.
+
+Do not leave TODO placeholders or nonfunctional buttons.
+
+Follow these principles:
+
+1. Complete one verified functional layer before building the next.
+2. Maintain a coherent architecture.
+3. Keep the project running throughout development.
+4. Prioritize technical correctness over visual tricks.
+5. Preserve the cinematic experience.
+6. Treat privacy as a foundational engineering requirement.
+7. Never present AI-generated deductions as verified facts.
+8. Never invent statistics, external evidence, or metadata.
+9. Make the entire experience responsive.
+10. Continue through the implementation until the requested application is complete or an actual environment limitation blocks further work.
+
+**The final result should look like a Hollywood cybersecurity film while operating like a serious privacy-analysis application.**
+
+---
+
+# 1. THE CORE PRODUCT IDEA
+
+## Product name
+
+EXHAUST
+
+## Identity
+
+**The Forensic Mirror for Your Digital Ghost.**
+
+## Primary slogan
+
+YOUR FILE IS TELLING ON YOU.
+
+## Supporting tagline
+
+What you see is not everything you share.
+
+## The problem
+
+People frequently share photographs, documents, and writing without understanding the information those materials can expose.
+
+An image may reveal its capture location, camera manufacturer, device information, timestamp, and software metadata.
+
+A PDF may expose author information, document properties, and indicators of past modifications.
+
+Writing can reveal measurable stylistic patterns, although such patterns do not reliably identify an individual.
+
+Public websites can expose technology choices, tracking infrastructure, and other observable information.
+
+EXHAUST makes these details visible, explains them, and helps the user reduce unnecessary exposure.
+
+## Primary user journey
+
+DISCOVER → UPLOAD → X-RAY → UNDERSTAND → REDTEAM VIEW → SCRUB → VERIFY → DOWNLOAD
+
+A user should be able to complete the essential journey without creating an account or entering any information beyond the chosen file.
+
+---
+
+# 2. THE THREE-ACT EXPERIENCE
+
+The website is divided into three memorable experiences.
+
+## ACT I: THE CONFESSION
+
+An immersive black-screen storytelling introduction.
+
+## ACT II: THE WALL
+
+A visually extraordinary three-scene cinematic homepage.
+
+## ACT III: THE MACHINE
+
+A real privacy-forensics workstation with scanning, intelligence visualization, explainable risk scores, and clean-file verification.
+
+These should feel like consecutive chapters of one experience, not three unrelated websites.
+
+---
+
+# 3. DESIGN IDENTITY
+
+## Visual direction
+
+Imagine the visual language of a sophisticated American cybersecurity thriller combined with the usability of a premium enterprise intelligence platform.
+
+References for design quality and interaction sophistication:
+
+- Linear
+- Vercel
+- Stripe Dashboard
+- Modern cybersecurity intelligence platforms
+- Premium cinematic title sequences
+- High-end digital forensic workstation interfaces
+
+Do not copy an existing company's design.
+
+Create an original EXHAUST identity.
+
+## Colors
+
+```css
+:root {
+  --background: #020604;
+  --background-raised: #07130D;
+  --panel: #0B1D13;
+  --panel-hover: #102719;
+
+  --signal: #00FF41;
+  --signal-muted: #0B3D1E;
+
+  --brand-ink: #021E18;
+  --brand-lime: #C7FF00;
+
+  --danger: #FF2A2A;
+  --warning: #FFB000;
+  --safe: #12A36B;
+
+  --text-primary: #D7FFE0;
+  --text-secondary: #7FB98A;
+
+  --light-page: #F4F6F3;
+  --light-card: #FFFFFF;
+  --light-border: #DFE5E0;
+}
+```
+
+Use these colors consistently.
+
+The cinematic presentation can use the brighter signal green.
+
+The analysis dashboard should favor the original dark-forest brand palette with lime primary actions and carefully controlled status colors.
+
+Avoid excessive green glowing borders.
+
+Do not create a generic Matrix-inspired interface filled with meaningless code.
+
+Every technical-looking component should represent a real system state or data field.
+
+## Typography
+
+Use three complementary families:
+
+**Cinematic headings:** Bebas Neue, Antonio, or another high-quality condensed display font.
+
+**Data and terminal:** JetBrains Mono.
+
+**Application interface:** DM Sans.
+
+Use Bricolage Grotesque where appropriate for major dashboard headings.
+
+Avoid unnecessary font families.
+
+## Atmosphere
+
+Cinematic sections may include:
+
+- Controlled film grain.
+- Subtle scanlines.
+- Hard cuts.
+- RGB channel separation.
+- Glitch transitions.
+- Optical distortion.
+- Light leaks.
+- Camera movement.
+- Digital interference.
+- Atmospheric shadows.
+
+The application dashboard should use these effects much more sparingly.
+
+Readability must always win over spectacle.
+
+---
+
+# 4. ACT I: THE CONFESSION
+
+## Initial page
+
+The application first opens to complete blackness.
+
+The screen should not look like a conventional marketing homepage.
+
+No sidebar.
+
+No navigation menu.
+
+No cards.
+
+No conventional loading indicator.
+
+A small blinking white cursor appears.
+
+The story begins.
+
+## Exact narrative sequence
+
+Render these statements as a cinematic typewriter sequence.
+
+### Sequence 01
+
+"Every day, millions of photographs are shared."
+
+### Sequence 02
+
+"Some carry locations their owners have never seen."
+
+### Sequence 03
+
+"Some documents reveal authors, software, and hidden properties."
+
+### Sequence 04
+
+"Even ordinary writing carries patterns."
+
+### Sequence 05
+
+"None of this is obvious when you press Share."
+
+### Sequence 06
+
+"But the data can travel with the file."
+
+### Sequence 07
+
+"Today, we built the mirror."
+
+### Sequence 08
+
+EXHAUST
+
+### Sequence 09
+
+THE FORENSIC MIRROR FOR YOUR DIGITAL GHOST.
+
+### Sequence 10
+
+"Your original files stay on your device. Saved report summaries expire after two hours."
+
+Do not claim that physical database deletion happens at exactly the two-hour mark unless that has genuinely been enforced and verified.
+
+## Final interaction
+
+Show:
+
+**PRESS ANY KEY TO LAUNCH**
+
+On mobile:
+
+**TAP TO LAUNCH**
+
+The prompt pulses subtly.
+
+Keyboard presses, clicking, and tapping should launch Act II.
+
+Include a Skip Intro link in the bottom-right corner.
+
+Store the intro-viewed state in sessionStorage.
+
+Include a Replay Experience option elsewhere in the application.
+
+## Typewriter engine
+
+Build a reusable React component.
+
+Features:
+
+- Character-by-character rendering.
+- Configurable speed.
+- Pauses between sentences.
+- Blinking cursor.
+- Skip interaction.
+- Controlled cancellation.
+- Accessible complete text.
+- Reduced-motion fallback.
+
+Use GSAP where appropriate.
+
+Do not create overlapping timers.
+
+## Cinematic transition
+
+When the user launches:
+
+1. Fade the cursor.
+2. Show the EXHAUST shield briefly.
+3. Trigger a short simulated digital glitch.
+4. Introduce a hard black-frame cut.
+5. Reveal Act II.
+
+The transition should feel sharp and intentional.
+
+Do not turn the entire sequence into a slow fade.
+
+---
+
+# 5. ACT II: THE WALL
+
+Create an extraordinary full-screen homepage.
+
+The key visual is a cinematic three-scene sequence.
+
+Images must be 16:9 with carefully designed mobile crops.
+
+The cinematic section should feel like an interactive film.
+
+## SCENE 1: THE CAPTURE
+
+A university-age adult student is taking a photograph.
+
+View the student from behind.
+
+Use a three-quarter rear camera perspective.
+
+Warm sunset light.
+
+The smartphone should be clearly visible.
+
+Background: realistic urban street or campus.
+
+The image should evoke innocence and ordinary daily life.
+
+### Text
+
+**ONE PHOTO.**
+
+**A THOUSAND INVISIBLE DETAILS.**
+
+Supporting text:
+
+"What you capture is only part of what you share."
+
+### Motion
+
+Slow push-in.
+
+Small focus reticle around the phone.
+
+Very subtle photographic grain.
+
+No meaningless visual effects.
+
+### Transition
+
+A sharp shutter-flash cut into Scene 2.
+
+---
+
+## SCENE 2: THE INVESTIGATION
+
+The same photograph is being analyzed on a dark workstation.
+
+An investigator sits in front of several screens.
+
+Camera positioned behind the investigator.
+
+Screens display plausible forensic information.
+
+Visible interface details may include:
+
+- Image preview.
+- GPS information.
+- Device metadata.
+- Capture timestamps.
+- Map.
+- Evidence relationships.
+
+Keep screen content stylistic and non-identifying.
+
+### Text
+
+**THE IMAGE IS NOT THE WHOLE FILE.**
+
+Supporting text:
+
+"Metadata can reveal what the photograph never shows."
+
+### Motion
+
+Subtle camera pan.
+
+Metadata panels animate into view.
+
+A scanning line moves across the photograph.
+
+Digital fragments appear briefly.
+
+### Transition
+
+The camera approaches the monitor.
+
+The image breaks into horizontal strips.
+
+A glitch cut introduces Scene 3.
+
+---
+
+## SCENE 3: THE REVEAL
+
+A photograph or forensic evidence tag hangs from a thin cord in a dark room.
+
+The scene is suspenseful.
+
+Strong contrast.
+
+A red emergency light illuminates the evidence.
+
+Use a dramatic thriller aesthetic without graphic violence.
+
+### Main text
+
+**YOUR IMAGE KNOWS TOO MUCH.**
+
+The phrase appears in distressed, deep-red cinematic typography.
+
+Supporting text:
+
+"Discover the hidden data. Understand the exposure. Take control."
+
+### Motion
+
+Subtle movement of the suspended evidence tag.
+
+Slow camera push.
+
+A controlled red text glitch.
+
+A brief silence.
+
+The EXHAUST logo appears.
+
+Primary CTA:
+
+**START THE X-RAY**
+
+Secondary CTA:
+
+**ENTER THE MACHINE**
+
+---
+
+# 6. CINEMATIC IMAGE ASSET PROMPTS
+
+Use these exact concepts when generating the hero assets.
+
+Do not bake text into the generated images.
+
+All website typography must remain editable HTML.
+
+## HERO IMAGE 01
+
+Ultra-realistic cinematic still of a university-age adult student taking a photograph with a smartphone, viewed from behind at a three-quarter angle. Contemporary campus street at golden hour, realistic atmospheric lighting, cinematic 35mm lens, shallow depth of field, premium American thriller-film cinematography, natural body proportions, dark forest-green shadows with warm sunset highlights, subtle atmospheric haze, emotional storytelling, visually striking composition, negative space for interface text, realistic environment, 16:9. No text, watermark, logo, interface overlay, or visible personally identifying details.
+
+## HERO IMAGE 02
+
+Ultra-realistic cybersecurity investigation scene, an investigator viewed from behind sitting at a sophisticated workstation with several realistic monitors, dark command-center atmosphere, photographs and metadata analysis panels on screens, world map and evidence visualization, dark green and teal monitor lighting, restrained lime accents, deep shadows, intricate realistic equipment, premium thriller cinematography, high detail, atmospheric depth, dramatic framing, 16:9. No text overlay, branding, watermarks, or fantastical hacker interfaces.
+
+## HERO IMAGE 03
+
+Ultra-realistic cinematic thriller scene of a printed photograph and forensic evidence tag hanging from a thin cord inside a dark investigation room, dramatic directional red light illuminating the paper, strong black shadows, subtle green ambient lighting, tactile paper texture, ominous atmosphere, premium thriller cinematography, cinematic depth, empty negative space for a large warning headline, 16:9. No graphic violence, human hanging, gore, text, logos, or watermarks.
+
+## Asset handling
+
+The user may provide:
+
+```text
+/public/cinematic/hero-1.jpg
+/public/cinematic/hero-2.jpg
+/public/cinematic/hero-3.jpg
+```
+
+Use supplied assets when present.
+
+If image generation is available, generate original assets.
+
+If unavailable, do not pretend images were generated. Document the missing asset dependency while ensuring the rest of the website remains functional.
+
+Optimize assets for production.
+
+---
+
+# 7. ACT II: MOTION ENGINE
+
+Use GSAP for the main cinematic timeline.
+
+Create:
+
+- CinematicDirector
+- GlitchImage
+- FilmGrain
+- ScanlineOverlay
+- SceneCaption
+- SceneProgress
+- ScrambleText
+- FilmCutTransition
+
+Each scene holds approximately four seconds unless the user interacts.
+
+Use alternating transitions:
+
+1. Camera-shutter cut.
+2. Horizontal-band digital glitch.
+3. Exposure-flash cut.
+
+The glitch should be generated through a small number of image layers, CSS clip paths, and transient transforms.
+
+Avoid creating excessive DOM elements or GPU-heavy continuous effects.
+
+Add a background pause when the page is hidden.
+
+Support:
+
+- Replay.
+- Skip.
+- Previous scene.
+- Next scene.
+- Pause/play.
+- Reduced motion.
+
+The entire visual sequence must work on desktop and mobile.
+
+## Homepage headline
+
+Use a text-scramble animation to reveal:
+
+**YOUR FILE IS TELLING ON YOU.**
+
+Supporting copy:
+
+"Drop a photo, inspect a document, or analyze your writing. See what it reveals. Then take control."
+
+Primary action:
+
+**START THE X-RAY**
+
+Sample actions:
+
+- SAMPLE: Phone Photo
+- SAMPLE: Resume PDF
+- SAMPLE: Text Post
+
+All sample buttons must load real bundled examples or clearly labeled demonstrations.
+
+---
+
+# 8. ACT III: THE MACHINE
+
+The primary application interface is a serious forensic workstation.
+
+This screen must provide the strongest visual and functional payoff.
+
+## Desktop structure
+
+Left: navigation sidebar.
+
+Center: active investigation workspace.
+
+Right: contextual findings and profiler feed.
+
+Top: application status and scanner controls.
+
+Bottom: compact privacy and processing status strip.
+
+## Main navigation
+
+- Overview
+- X-RAY Scanner
+- Image Forensics
+- Document Forensics
+- Text Fingerprint
+- Website Inspector
+- OSINT Workspace
+- REDTEAM View
+- Scrubber
+- Reports
+- Settings
+
+Organize navigation into logical groups.
+
+Avoid overwhelming the sidebar with equal-priority items.
+
+## Mobile structure
+
+Use the floating rounded bottom navigation concept from the reference image.
+
+Four primary navigation items:
+
+- Scan
+- Investigate
+- Reports
+- Settings
+
+The active tab uses a raised lime circular icon and curved notch.
+
+Provide touch-friendly controls.
+
+Do not render the desktop sidebar and mobile navbar simultaneously.
+
+---
+
+# 9. THE X-RAY SCANNER
+
+The scanner should feel like a forensic terminal, but the underlying workflow must be real.
+
+## Accepted inputs
+
+- JPEG.
+- PNG.
+- WebP where supported.
+- PDF.
+- Plain text.
+
+Use browser-side file inspection whenever possible.
+
+## Dropzone design
+
+Large recessed dark-green terminal-style well.
+
+A subtle radar sweep moves across the empty area.
+
+Use a dashed outline and clear upload instructions.
+
+Include:
+
+- Choose file.
+- Drag and drop.
+- Paste text.
+- Load sample.
+
+Display supported formats and actual file size limits.
+
+## On scan
+
+Render terminal lines only when the corresponding action actually occurs.
+
+Examples:
+
+```text
+> FILE RECEIVED
+> VALIDATING FILE FORMAT
+> READING LOCAL FILE BYTES
+> PARSING METADATA
+> NORMALIZING EXTRACTED FIELDS
+> CALCULATING PRIVACY EXPOSURE
+> BUILDING EVIDENCE GRAPH
+> SCAN COMPLETE
+```
+
+If GPS is present:
+
+```text
+> GPS METADATA DETECTED
+```
+
+If no GPS exists:
+
+```text
+> GPS METADATA NOT PRESENT
+```
+
+Never print a successful GPS detection for a file without location information.
+
+## Progress
+
+Track actual parsing stages.
+
+Do not invent a fake elapsed-time percentage.
+
+Use an indeterminate progress state when a library does not expose real progress.
+
+When analysis completes, transition to the report screen.
+
+---
+
+# 10. REAL IMAGE FORENSICS
+
+Use `exifr` for client-side metadata extraction.
+
+Research its actual supported formats and fields before implementation.
+
+Extract available:
+
+- GPS coordinates.
+- Device model.
+- Device manufacturer.
+- Device serial information where supported and present.
+- Date and time.
+- Camera settings.
+- Orientation.
+- Software metadata.
+- Author information.
+- Copyright information.
+- Relevant EXIF and XMP fields.
+
+Preserve the raw parsed object locally for the JSON viewer.
+
+Normalize extracted fields into a typed report schema.
+
+Display absent fields as:
+
+**NOT PRESENT**
+
+Do not display empty strings or guessed values.
+
+## Exposure categories
+
+Organize findings under:
+
+**WHERE**
+
+Geographic information.
+
+**WHEN**
+
+Timestamps and timing clues.
+
+**DEVICE**
+
+Camera and device information.
+
+**OWNER SIGNALS**
+
+Author and copyright metadata.
+
+**SOFTWARE**
+
+Editing and processing traces.
+
+Add a source tag to every finding explaining which metadata field supports it.
+
+---
+
+# 11. PDF FORENSICS
+
+Use `pdf-lib` for appropriate PDF metadata operations.
+
+Use additional maintained parsing tools only when needed.
+
+Extract reliably available fields such as:
+
+- Title.
+- Author.
+- Subject.
+- Keywords.
+- Creator.
+- Producer.
+- Creation date.
+- Modification date.
+- Page count.
+
+Provide a document properties panel.
+
+PDF revision history is more complex than metadata timestamps.
+
+Do not claim to reconstruct historical revisions based only on the last-modified date.
+
+Where possible, identify reliably detectable incremental-update indicators.
+
+If unsupported, show:
+
+"Full revision history is not available from this analysis."
+
+Include an explanation of what the PDF inspection can and cannot prove.
+
+---
+
+# 12. TEXT FINGERPRINT LAB
+
+Create a unique module for examining measurable writing patterns.
+
+This must run locally in the browser.
+
+Do not use a commercial writing-identification API.
+
+Calculate:
+
+- Mean sentence length.
+- Sentence-length variance.
+- Lexical diversity.
+- Function-word distribution.
+- Punctuation frequency.
+- Repeated phrase frequency.
+- Paragraph lengths.
+- Capitalization patterns.
+- Formatting signals.
+- Emoji frequency.
+
+Use deterministic TypeScript functions.
+
+Display a radar or bar visualization.
+
+## Important interpretation
+
+Label the analysis:
+
+**WRITING PATTERN INDICATORS**
+
+Clearly state:
+
+"These measurements describe patterns in this text. They do not prove authorship, identity, or AI use."
+
+Do not produce a probability that a named individual wrote the text.
+
+Do not claim that stylometry can reliably identify the author from a single paragraph.
+
+## Clean-copy feature
+
+Allow optional normalization of:
+
+- Smart quotation marks.
+- Unusual whitespace.
+- Nonbreaking spaces.
+- Formatting inconsistencies.
+
+Explain that this is text normalization, not guaranteed anonymity or authorship obfuscation.
+
+---
+
+# 13. SEMICIRCLE EXPOSURE RISK GAUGE
+
+Create a large custom SVG semicircular risk gauge inspired by the supplied sketch.
+
+The gauge must become one of the signature visual elements of EXHAUST.
+
+## Components
+
+- Background arc.
+- Colored foreground arc.
+- Large numeric score.
+- Risk category.
+- Supporting explanation.
+- Animated needle or progress indicator if visually appropriate.
+
+Use `@number-flow/react` for changing numeric values.
+
+Use Motion or GSAP for the arc animation.
+
+Do not animate the same attribute through multiple animation engines.
+
+## Risk bands
+
+| Score | Category |
+|---|---|
+| 0–24 | LOW |
+| 25–54 | EXPOSED |
+| 55–79 | HIGH |
+| 80–100 | CRITICAL |
+
+Use safe, warning, and danger colors according to severity.
+
+## Image scoring formula
+
+- GPS coordinates: +40.
+- Camera serial: +15.
+- Exact capture timestamp: +10.
+- Device make/model: +10.
+- Owner, artist, or copyright identifier: +15.
+- Software trace: +10.
+
+Maximum 100.
+
+Use one exported scoring function.
+
+## PDF scoring formula
+
+- Author: +20.
+- Creator/producer details: +10.
+- Creation and modification timestamps: +10.
+- Keywords: +5.
+- Reliable modification-history indicators: +10.
+
+Make the PDF scoring rules explicit and versioned.
+
+Do not claim modification history is proven merely by differing dates.
+
+## Text analysis
+
+Use a separate descriptive writing-pattern strength index.
+
+Do not present text pattern measurements as a direct privacy-harm probability.
+
+## Explainability
+
+Every gauge must have a How This Score Works action.
+
+Show the exact contribution of every present finding.
+
+This is a product-defined exposure heuristic, not a scientifically calibrated risk probability.
+
+---
+
+# 14. THE EVIDENCE MAP
+
+When a real uploaded file contains GPS metadata, display its coordinates.
+
+Use:
+
+- Leaflet.
+- A suitable dark map tile provider.
+- One relevant location marker.
+- Latitude and longitude readouts.
+
+Use a smooth, subtle pulse around the marker.
+
+Require explicit user interaction before loading external map tiles.
+
+Explain that showing the map may share coordinates with the map tile service.
+
+Never create random map locations.
+
+If no GPS data exists:
+
+**NO LOCATION METADATA FOUND**
+
+Do not show a fictitious map pin.
+
+---
+
+# 15. EVIDENCE NETWORK GRAPH
+
+Use `@xyflow/react`.
+
+Build an interactive graph from real findings.
+
+## Example nodes
+
+- Original File.
+- Embedded Metadata.
+- Sharing Surface.
+- File Recipient.
+- Location Exposure.
+- Device Information.
+- Author Information.
+- Privacy Risk.
+
+Create nodes conditionally.
+
+For example, do not show Location Exposure if GPS metadata is absent.
+
+## Interaction
+
+When clicking a finding node:
+
+- Highlight the associated metadata row.
+- Scroll to the relevant evidence.
+- Show the exact evidence source.
+
+Use restrained animated edges.
+
+The graph should explain possible information exposure, not imply that a specific person accessed or abused the file.
+
+---
+
+# 16. REDTEAM VIEW
+
+Create a global REDTEAM toggle.
+
+This is a **defensive exposure simulation**, not a tool for locating or stalking individuals.
+
+## Purpose
+
+Help users understand what someone receiving their file could directly learn from it.
+
+## Normal mode
+
+Theme: dark green.
+
+Title:
+
+**DEFENDER VIEW**
+
+Panel:
+
+"What information does this file expose, and how can you reduce it?"
+
+## REDTEAM mode
+
+Theme: darker green with controlled red accents.
+
+Title:
+
+**EXPOSURE SIMULATION**
+
+Panel:
+
+"WHAT A RECIPIENT COULD SEE"
+
+Allow a five-second cinematic reconstruction of the scan.
+
+The countdown is a presentation sequence, not a claim about how quickly an actual attacker would complete an investigation.
+
+Display deductions grounded in actual metadata.
+
+Examples:
+
+If GPS exists:
+
+"This file includes geographic coordinates."
+
+If capture time exists:
+
+"The file contains a capture timestamp."
+
+If device model exists:
+
+"The file reveals information about the capture device."
+
+If author metadata exists:
+
+"The document contains an author field."
+
+Do not infer someone's home address, workplace, daily routine, personal identity, or future location from a single data point.
+
+Do not generate contact details, personal dossiers, or harassment instructions.
+
+## Gemini deduction layer
+
+Use Gemini to translate structured findings into concise privacy explanations.
+
+Require:
+
+- Evidence references.
+- Plain-language explanation.
+- Uncertainty indication.
+- Suggested mitigation.
+- No unsupported inference.
+
+If a deduction has no supporting finding, reject it.
+
+The deterministic fallback must work without Gemini.
+
+---
+
+# 17. ONE-CLICK SCRUBBER
+
+This is the central product payoff.
+
+## Image scrubbing
+
+Decode the image locally.
+
+Re-encode it to a new image file.
+
+Default output: JPEG, quality 0.92.
+
+Explain when conversion may change image quality, transparency, color information, or dimensions.
+
+Do not silently convert transparent images to JPEG without warning.
+
+Allow a format-preserving output where appropriate.
+
+Avoid retaining unnecessary EXIF, XMP, or other metadata.
+
+## Optional noise experiment
+
+An advanced, clearly labeled image pixel modification option may be added.
+
+Do not call it a guaranteed anti-recognition method.
+
+Do not claim that tiny pixel changes prevent tracking, facial recognition, or identification.
+
+Keep it disabled by default.
+
+## PDF scrubbing
+
+Create a fresh PDF representation where technically supported.
+
+Remove supported metadata.
+
+Inspect for remaining embedded metadata and relevant structures.
+
+Copying pages into a new pdf-lib document is not sufficient proof that all hidden content has been removed.
+
+Do not claim full PDF sanitization unless verified.
+
+Warn about:
+
+- Embedded files.
+- Hidden content.
+- Annotations.
+- Form fields.
+- Digital signatures.
+- Incremental history.
+- Other unsupported structures.
+
+Provide a metadata-reduced output where comprehensive sanitization cannot be guaranteed.
+
+## Text cleaning
+
+Provide normalized text with a Copy Clean Text button.
+
+Do not claim guaranteed anonymity.
+
+## Verification
+
+After scrubbing:
+
+1. Read the generated output.
+2. Re-run the extractor.
+3. Calculate the new score.
+4. Compare findings.
+5. Show remaining metadata.
+6. Enable download.
+
+## Comparison interface
+
+Use a dramatic split screen.
+
+**BEFORE** on the left.
+
+**AFTER** on the right.
+
+Animate the score transition.
+
+Highlight successfully removed fields.
+
+Display remaining findings.
+
+Toast example:
+
+"Metadata reduced. Exposure score changed from 80 to 10."
+
+Use actual values.
+
+Do not force the after-score to zero.
+
+---
+
+# 18. WEBSITE INSPECTOR
+
+Preserve the website inspection feature from the original EXHAUST product vision.
+
+Build a passive, read-only inspection tool.
+
+The user enters a public HTTPS or HTTP URL.
+
+Analyze:
+
+- HTTPS availability.
+- Redirect behavior.
+- Security headers.
+- Cookie attributes.
+- Public page metadata.
+- Publicly visible technology indicators.
+- Relevant third-party resources.
+- Public robots.txt and security.txt information.
+
+Do not perform exploitation, aggressive scanning, credential testing, or unauthorized vulnerability probing.
+
+## Security
+
+Protect against SSRF.
+
+Block private, loopback, link-local, and cloud metadata addresses.
+
+Validate redirects and resolved IP addresses.
+
+Apply strict request limits, timeouts, and rate limits.
+
+Do not expose an unrestricted web-fetch endpoint.
+
+## Results
+
+Show only actual findings.
+
+If a request fails, explain why.
+
+Use a clean website intelligence report with the same EXHAUST design language.
+
+---
+
+# 19. OSINT WORKSPACE
+
+Create a public-source research workspace.
+
+The purpose is to organize legitimate evidence about user-authorized files, websites, and public organizational resources.
+
+Include:
+
+- Public source links.
+- Domain observations.
+- Public document references.
+- Technology observations.
+- Entity relationships.
+- Investigation notes.
+- Evidence timeline.
+- Exportable summary.
+
+All graph connections must have provenance.
+
+Do not fabricate sources.
+
+Do not collect private personal information or automate personal targeting.
+
+Avoid automatic facial identification and identity correlation.
+
+---
+
+# 20. GEMINI INTEGRATION
+
+Use Google's maintained Gemini SDK.
+
+Environment variable:
+
+```env
+GEMINI_API_KEY=
+```
+
+The user may have used a Gemini key in a different environment or conversation.
+
+Do not assume that key is accessible.
+
+Never try to recover credentials from chat history, logs, or source files.
+
+Read the key only from the server environment.
+
+## Gemini purposes
+
+- Explain forensic findings.
+- Summarize privacy implications.
+- Generate plain-language remediation steps.
+- Summarize authorized public-source evidence.
+- Explain scoring methodology.
+
+Use a strict structured-output schema.
+
+Suggested fields:
+
+```ts
+type Deduction = {
+  findingId: string;
+  evidenceField: string;
+  observation: string;
+  implication: string;
+  uncertainty: string;
+  mitigation: string;
+};
+```
+
+Validate every Gemini response.
+
+Reject unsupported findings.
+
+Never send raw uploaded files to Gemini.
+
+Only send a minimized structured findings object after user consent.
+
+## Fallback
+
+If the API key is missing, unavailable, or rate limited:
+
+Use deterministic template explanations.
+
+The report must remain usable.
+
+## Optional NVIDIA
+
+Support an optional adapter:
+
+```env
+NVIDIA_API_KEY=
+```
+
+Do not require NVIDIA for the core application.
+
+Do not use a general LLM as a fake AI-image detector.
+
+A separate calibrated or clearly labeled image-detection provider is required for AI-image classification.
+
+---
+
+# 21. MONGODB ATLAS ARCHITECTURE
+
+Use MongoDB Atlas with Mongoose.
+
+The primary database is:
+
+```text
+exhaust
+```
+
+Do not reuse any previously exposed database credentials.
+
+Require a newly generated least-privilege Atlas database user.
+
+## Database policy
+
+**Original file bytes are never uploaded to the EXHAUST server for standard image, PDF, or text analysis.**
+
+Extraction happens in the browser.
+
+Database storage is optional.
+
+Only when a user selects Save Report should a minimized report summary be sent to the server.
+
+## Collection: scans
+
+Suggested schema:
+
+```ts
+type SavedScan = {
+  _id: string;
+  ownerSessionHash: string;
+  fileType: "image" | "pdf" | "text" | "website";
+  fieldsFound: Record<string, boolean>;
+  riskScore: number;
+  band: "LOW" | "EXPOSED" | "HIGH" | "CRITICAL";
+  scoringVersion: string;
+  deductions: string[];
+  createdAt: Date;
+};
+```
+
+Store only the minimum data needed.
+
+Do not store original image bytes, full text content, or raw GPS values.
+
+If file hashes are offered, clearly disclose their retention and correlation implications.
+
+## TTL
+
+Create a TTL index on `createdAt` with:
+
+```js
+expireAfterSeconds: 7200
+```
+
+Do not rely on the Mongoose schema declaration alone.
+
+Verify that the actual index exists in MongoDB Atlas.
+
+## Expiry enforcement
+
+MongoDB TTL deletion runs asynchronously.
+
+Therefore:
+
+- Reject report access once its two-hour expiry is reached.
+- Exclude expired documents from all queries.
+- Run a cleanup process for expired records.
+- Use the TTL index as database-level automatic cleanup.
+- Clearly distinguish access expiry from physical deletion timing.
+
+Do not claim that the database guarantees deletion at the exact two-hour boundary.
+
+## Session isolation
+
+Use secure server-issued anonymous sessions or an appropriate authentication system.
+
+Reports must be accessible only to the session or account that created them.
+
+Do not rely on an unguessable report ID as the sole authorization control.
+
+Use HttpOnly, Secure, SameSite cookies as appropriate.
+
+---
+
+# 22. API ENDPOINTS
+
+Implement:
+
+```text
+POST   /api/scans
+GET    /api/scans
+GET    /api/scans/:id
+DELETE /api/scans/:id
+
+POST   /api/deduce
+
+POST   /api/website/inspect
+
+GET    /api/health
+```
+
+## POST /api/scans
+
+Accept a Zod-validated summary.
+
+Never accept arbitrary client-supplied database ownership fields.
+
+Recalculate relevant normalized scores server-side before saving.
+
+Return:
+
+- Saved report ID.
+- Creation timestamp.
+- Expiration timestamp.
+
+## GET /api/scans/:id
+
+Require session ownership.
+
+Refuse expired reports even if MongoDB has not physically deleted them yet.
+
+## POST /api/deduce
+
+Accept only explicitly consented structured findings.
+
+Validate with Zod.
+
+Never accept raw uploaded file content.
+
+Call Gemini server-side.
+
+Return validated deductions with evidence references.
+
+Fallback to deterministic explanations if Gemini is unavailable.
+
+## GET /api/health
+
+Return minimal public health status.
+
+Do not expose database connection strings, collection names containing private details, or privileged infrastructure information.
+
+Create a protected diagnostic view for verifying TTL index configuration during the demo.
+
+---
+
+# 23. RATE LIMITING AND SECURITY
+
+Use a real shared rate-limit store for production deployments.
+
+Do not rely solely on an in-memory JavaScript map when deployed across serverless instances.
+
+Suggested limit for the Gemini deduction endpoint:
+
+10 requests per minute per appropriate abuse-control identity.
+
+Rate limits must not create an easy way to deny service to unrelated users sharing an IP.
+
+Add:
+
+- Zod validation.
+- Payload limits.
+- Secure sessions.
+- Authorization.
+- Server-only secrets.
+- HTTPS.
+- Safe error handling.
+- Request timeouts.
+- CSRF defenses where relevant.
+- Abuse protection.
+- Website SSRF protections.
+
+Never log raw private file contents.
+
+Never reveal credentials through diagnostic endpoints.
+
+---
+
+# 24. SECURITY STATUS STRIP
+
+At the bottom of the scanner, create a compact monochrome security-status strip.
+
+Display verifiable claims:
+
+**PROCESSING:** ON DEVICE
+
+**ORIGINAL FILE STORAGE:** NONE
+
+**SAVED REPORT ACCESS:** EXPIRES AFTER 2H
+
+**VALIDATION:** ZOD
+
+**DATABASE CLEANUP:** TTL ENABLED, when verified
+
+Do not display a security guarantee if the implementation does not support it.
+
+If MongoDB is disconnected:
+
+Show the actual disconnected state.
+
+Do not hardcode TTL ACTIVE.
+
+---
+
+# 25. JUDGE LIVE MODE
+
+Create a dedicated presentation mode.
+
+A button labeled:
+
+**JUDGE LIVE MODE**
+
+When enabled:
+
+- Reset the scanner.
+- Enlarge the risk gauge.
+- Enlarge metadata cards.
+- Highlight the scrubber.
+- Simplify navigation.
+- Make the evidence map more prominent.
+- Provide obvious sample selectors.
+
+The mode should not change scan algorithms or results.
+
+## Demo samples
+
+Create three bundled sample files:
+
+1. Photo with GPS metadata.
+2. Photo with device/author information.
+3. PDF with author and document metadata.
+
+Generate real sample files with documented synthetic test values.
+
+Label them SAMPLE everywhere.
+
+## Important scenario
+
+If a WhatsApp-compressed photo has no EXIF metadata, the interface should explain:
+
+"This file contains no GPS metadata. Some messaging apps remove metadata when photos are shared. The original file may contain different information."
+
+Do not claim that every messaging app always strips all metadata.
+
+---
+
+# 26. EXTRA FEATURES THAT MAKE EXHAUST MEMORABLE
+
+## 26.1 THE INVISIBLE LAYER
+
+Add an interactive comparison:
+
+Left side:
+
+**WHAT YOU SEE**
+
+Displays the ordinary file preview.
+
+Right side:
+
+**WHAT THE FILE CARRIES**
+
+Displays only the metadata actually discovered.
+
+A draggable divider reveals the two views.
+
+This is one of the strongest visual explanations of the product concept.
+
+## 26.2 EVIDENCE PROVENANCE
+
+Every finding includes a small source indicator.
+
+Example:
+
+`EXIF / GPSLatitude`
+
+Clicking it opens the exact supporting metadata field.
+
+This gives the project technical credibility.
+
+## 26.3 PROOF OF SCRUB
+
+After a cleaning operation, generate a compact verification certificate.
+
+Show:
+
+- Original score.
+- Cleaned score.
+- Removed fields.
+- Remaining fields.
+- Verification timestamp.
+- Processing method.
+- Known limitations.
+
+This is a verification summary, not a legal or forensic certification.
+
+## 26.4 EXPOSURE TIMELINE
+
+Show an event sequence:
+
+- File loaded.
+- Metadata parsed.
+- Exposure calculated.
+- Cleaning started.
+- Cleaned file generated.
+- Cleaned file re-analyzed.
+
+Each event must correspond to a real application action.
+
+## 26.5 PRIVACY EXPLANATION CARDS
+
+Provide a simple explanation for each finding.
+
+Example:
+
+**GPS FOUND**
+
+"This image contains coordinates recorded during capture. Anyone who receives the original file may be able to inspect them."
+
+Keep text concise and evidence-based.
+
+## 26.6 MISSION CONTROL
+
+Add a compact overview showing:
+
+- Current scan type.
+- Number of findings.
+- Processing status.
+- Risk score.
+- Scrub availability.
+- Verification status.
+
+This should feel like a premium investigative interface rather than a generic analytics dashboard.
+
+---
+
+# 27. ANIMATION ARCHITECTURE
+
+Use:
+
+- GSAP for cinematic timelines.
+- Motion for UI micro-interactions.
+- Lenis for smooth scrolling only where beneficial.
+- `@number-flow/react` for animated score values.
+- SVG for the semicircular risk gauge.
+- CSS for subtle scanlines and grain.
+- `@xyflow/react` for evidence relationships.
+- Sonner for feedback toasts.
+
+Avoid animating the same property through GSAP and Motion simultaneously.
+
+Provide lifecycle cleanup.
+
+Respect reduced motion.
+
+Prioritize responsive input performance.
+
+Do not let decorative animation delay a real scan result.
+
+---
+
+# 28. PROJECT STRUCTURE
+
+Create a real, modular repository.
+
+```text
+exhaust/
+├── public/
+│   ├── cinematic/
+│   │   ├── hero-1.jpg
+│   │   ├── hero-2.jpg
+│   │   └── hero-3.jpg
+│   ├── samples/
+│   └── brand/
+│
+├── src/
+│   ├── app/
+│   │   ├── page.tsx
+│   │   ├── intro/
+│   │   ├── machine/
+│   │   ├── api/
+│   │   └── layout.tsx
+│   │
+│   ├── components/
+│   │   ├── cinematic/
+│   │   ├── layout/
+│   │   ├── scanner/
+│   │   ├── reports/
+│   │   ├── gauge/
+│   │   ├── map/
+│   │   ├── redteam/
+│   │   ├── scrubber/
+│   │   └── ui/
+│   │
+│   ├── features/
+│   │   ├── image-forensics/
+│   │   ├── pdf-forensics/
+│   │   ├── text-fingerprint/
+│   │   ├── website-inspection/
+│   │   ├── osint/
+│   │   ├── risk-scoring/
+│   │   ├── deductions/
+│   │   └── scrubbing/
+│   │
+│   ├── server/
+│   │   ├── database/
+│   │   ├── models/
+│   │   ├── auth/
+│   │   ├── rate-limit/
+│   │   └── security/
+│   │
+│   ├── hooks/
+│   ├── lib/
+│   ├── types/
+│   └── styles/
+│
+├── tests/
+│   ├── unit/
+│   ├── integration/
+│   ├── security/
+│   └── e2e/
+│
+├── scripts/
+├── .env.example
+├── package.json
+├── README.md
+└── DEPLOYMENT.md
+```
+
+Adjust the architecture as needed for the current stable Next.js release.
+
+Do not create empty placeholder modules purely to fill the folder structure.
+
+---
+
+# 29. DEVELOPMENT PRIORITIES
+
+The complete product is the objective, but implementation order must protect the essential demo.
+
+## P0: MUST WORK
+
+- Project initialization.
+- Core theme.
+- Image scanning.
+- PDF scanning.
+- Text pattern analysis.
+- Exposure scoring.
+- Risk gauge.
+- Real metadata findings.
+- Image scrubbing.
+- Re-scan verification.
+- Sample files.
+- Responsive application.
+- Basic security.
+
+## P1: REQUIRED EXPERIENCE
+
+- Cinematic intro.
+- Three-scene wall.
+- Film-cut transitions.
+- REDTEAM exposure simulation.
+- Evidence graph.
+- GPS map.
+- MongoDB report saving.
+- Two-hour report expiry.
+- Gemini explanation layer.
+- Judge Live Mode.
+
+## P2: ADVANCED FEATURES
+
+- Website inspector.
+- Expanded OSINT workspace.
+- Additional visual effects.
+- Advanced PDF sanitization.
+- Optional AI-image detection integration.
+
+Complete P0 before spending excessive time on P2.
+
+Do not silently describe P2 as finished when it is not.
+
+---
+
+# 30. TESTING REQUIREMENTS
+
+Use Vitest or another appropriate unit-test framework.
+
+Use Playwright for browser tests.
+
+Write real tests for:
+
+1. Image with GPS produces a finding and nonzero exposure score.
+2. Image without metadata shows NOT PRESENT.
+3. Scrubbed image no longer contains its previous EXIF GPS data.
+4. PDF author metadata is extracted.
+5. PDF sanitization reports any unsupported content correctly.
+6. Text metrics are deterministic.
+7. Risk scoring uses exactly the documented weights.
+8. REDTEAM deductions only reference actual findings.
+9. Gemini failures trigger the fallback.
+10. Report ownership is enforced.
+11. Expired reports cannot be retrieved.
+12. MongoDB TTL index exists.
+13. The intro can be skipped.
+14. The cinematic scene sequence works.
+15. The mobile navigation works.
+16. A real report can be exported.
+17. The main user journey succeeds from start to finish.
+
+Do not claim tests passed without running them.
+
+---
+
+# 31. LIVE DEMO REQUIREMENTS
+
+Optimize the application for a short live demonstration.
+
+## Demo flow
+
+**0:00–0:10**
+
+Show the black storytelling introduction.
+
+**0:10–0:20**
+
+Launch into the three-scene cinematic experience.
+
+**0:20–0:30**
+
+Click START THE X-RAY.
+
+**0:30–0:40**
+
+Load the GPS sample image.
+
+**0:40–0:50**
+
+Reveal hidden metadata, map, exposure score, and evidence relationships.
+
+**0:50–1:00**
+
+Activate REDTEAM view.
+
+**1:00–1:10**
+
+Explain the grounded privacy findings.
+
+**1:10–1:20**
+
+Scrub the file and verify the cleaned copy.
+
+**1:20–1:30**
+
+Show the before/after score and download the output.
+
+Keep all actions deterministic and reliable.
+
+The demonstration should run without requiring a live LLM response.
+
+Gemini should enrich the experience, not become a point of failure.
+
+---
+
+# 32. DEPLOYMENT
+
+Prepare deployment using:
+
+- Next.js-compatible hosting.
+- MongoDB Atlas.
+- Secure server-side environment variables.
+- A suitable shared rate-limit service where required.
+
+Suggested environment variables:
+
+```env
+MONGODB_URI=
+GEMINI_API_KEY=
+NVIDIA_API_KEY=
+SESSION_SECRET=
+APP_BASE_URL=
+RATE_LIMIT_REDIS_URL=
+RATE_LIMIT_REDIS_TOKEN=
+```
+
+Only require variables actually used.
+
+Do not expose secrets through `NEXT_PUBLIC_` variables.
+
+Document setup instructions.
+
+Require a fresh MongoDB Atlas credential.
+
+Do not reuse previously exposed project credentials.
+
+Include database index verification instructions.
+
+Include a local development guide and deployment troubleshooting notes.
+
+---
+
+# 33. FINAL ENGINEERING AUDIT
+
+Before completing the task:
+
+## Functional audit
+
+Check every navigation item, button, upload action, toggle, export, and report.
+
+No decorative dead controls.
+
+## Data audit
+
+Search for hardcoded fake values in the production scanning flow.
+
+Every genuine finding must come from input data or a documented algorithm.
+
+## Security audit
+
+Check:
+
+- Exposed secrets.
+- Unauthorized report access.
+- Unrestricted URL fetching.
+- Unsafe file handling.
+- Missing validation.
+- Excessive logging.
+- Expired-report access.
+- Prompt injection vulnerabilities.
+
+## Visual audit
+
+Review desktop at approximately:
+
+- 1440px.
+- 1280px.
+
+Review mobile at approximately:
+
+- 390px.
+- 375px.
+
+Check:
+
+- Typography.
+- Overflow.
+- Card alignment.
+- Bottom navigation.
+- Motion performance.
+- Gauge rendering.
+- Loading states.
+- Error states.
+
+## Accessibility audit
+
+Verify:
+
+- Keyboard controls.
+- Touch interactions.
+- Focus styles.
+- Reduced motion.
+- Readable status contrast.
+- Accessible upload instructions.
+
+---
+
+# 34. AUTONOMOUS COMPLETION PROTOCOL
+
+Work in the actual project workspace.
+
+First inspect the environment.
+
+Then:
+
+1. Initialize the application.
+2. Install compatible dependencies.
+3. Establish the design system.
+4. Implement P0 functionality.
+5. Run tests and fix failures.
+6. Implement the cinematic experience.
+7. Add REDTEAM and evidence visualization.
+8. Connect MongoDB and Gemini.
+9. Add advanced features.
+10. Run complete verification.
+11. Prepare deployment.
+12. Report exactly what works.
+
+Do not stop at a plan.
+
+Do not respond with a compressed pseudo-project.
+
+Do not create an attractive static dashboard that pretends to scan.
+
+Do not use fabricated metadata, AI scores, or map coordinates in genuine scan results.
+
+If output length becomes a limitation, continue through the working repository rather than dumping unfinished code into chat.
+
+If a requested feature is blocked by a missing credential or unavailable capability, isolate that feature, implement its interface and safe fallback, and continue with the rest.
+
+Keep all explanations technically defensible.
+
+The final EXHAUST application must be cinematic, usable, secure, and demonstrably functional.
+
+---
+
+# 35. THE FINAL PRODUCT EXPERIENCE
+
+A visitor opens EXHAUST.
+
+The screen is black.
+
+A story unfolds.
+
+The visitor presses a key.
+
+A cinematic photograph appears.
+
+The image abruptly cuts to an investigator.
+
+Hidden information becomes visible.
+
+The scene cuts to an ominous evidence tag.
+
+A red headline appears:
+
+**YOUR IMAGE KNOWS TOO MUCH.**
+
+The user enters the machine.
+
+They upload a real image.
+
+A terminal reports genuine analysis stages.
+
+Metadata appears.
+
+A risk gauge reveals the score.
+
+The map identifies an embedded location only if one exists.
+
+REDTEAM mode explains what the file exposes.
+
+The user selects SCRUB.
+
+The file is cleaned.
+
+The result is analyzed again.
+
+The risk score changes according to what was actually removed.
+
+The clean copy is downloaded.
+
+The product has demonstrated its purpose.
+
+**Make the invisible visible.**
+
+**Make the result understandable.**
+
+**Give the user control.**
+
+**BUILD EXHAUST NOW.**
+
+Do not give me another prompt, plan, or prototype-only response.
+
+Create the full working project.

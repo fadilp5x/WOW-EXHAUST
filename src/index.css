@@ -1,0 +1,225 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+@import "@xyflow/react/dist/style.css";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --bg-ivory: #FAF8F3;
+  --ink-midnight: #08090B;
+  --lime-primary: #CDF22B;
+  --lime-electric: #D6FB00;
+  --lime-pale: #ECFFB6;
+  --deep-teal: #00545F;
+  --alert-coral: #FF4B4B;
+  --surface-card: #FFFFFF;
+  --border-light: rgba(8, 9, 11, 0.08);
+  --border-dark: rgba(205, 242, 43, 0.25);
+
+  --background: #FAF8F3;
+  --background-raised: #FFFFFF;
+  --panel: #FFFFFF;
+  --brand-ink: #08090B;
+  --brand-lime: #CDF22B;
+  --danger: #FF4B4B;
+  --warning: #F59E0B;
+  --safe: #12A36B;
+  --text-primary: #08090B;
+  --text-secondary: #525866;
+}
+
+@layer base {
+  html,
+  body {
+    background-color: var(--bg-ivory);
+    color: var(--ink-midnight);
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow-x: hidden;
+  }
+
+  .font-display {
+    font-family: "Space Grotesk", -apple-system, BlinkMacSystemFont, sans-serif;
+    letter-spacing: -0.04em;
+  }
+
+  .font-mono {
+    font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .font-sans {
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+}
+
+/* Tactile Duolingo-inspired Buttons */
+.btn-tactile-lime {
+  background-color: #CDF22B;
+  color: #08090B;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  border-radius: 16px;
+  border: 1px solid rgba(8, 9, 11, 0.14);
+  box-shadow: 0 4px 0 #95ba07, 0 10px 24px rgba(205, 242, 43, 0.25);
+  transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.15s ease;
+}
+
+.btn-tactile-lime:hover:not(:disabled) {
+  background-color: #d6fb00;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 0 #95ba07, 0 14px 28px rgba(205, 242, 43, 0.35);
+}
+
+.btn-tactile-lime:active:not(:disabled) {
+  transform: translateY(2px);
+  box-shadow: 0 2px 0 #95ba07, 0 4px 12px rgba(205, 242, 43, 0.2);
+}
+
+.btn-tactile-dark {
+  background-color: #08090B;
+  color: #CDF22B;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  border-radius: 16px;
+  box-shadow: 0 4px 0 #000000, 0 10px 24px rgba(8, 9, 11, 0.25);
+  transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.15s ease;
+}
+
+.btn-tactile-dark:hover:not(:disabled) {
+  background-color: #16191e;
+  transform: translateY(-1px);
+}
+
+.btn-tactile-dark:active:not(:disabled) {
+  transform: translateY(2px);
+  box-shadow: 0 2px 0 #000000;
+}
+
+.bg-unseen-grid {
+  background-color: #FAF8F3;
+  background-image:
+    radial-gradient(ellipse 65% 55% at 85% 25%, rgba(205, 242, 43, 0.12) 0%, transparent 60%),
+    linear-gradient(to right, rgba(8, 9, 11, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(8, 9, 11, 0.04) 1px, transparent 1px);
+  background-size: 100% 100%, 40px 40px, 40px 40px;
+}
+
+.btn-tactile-secondary {
+  background-color: #FFFFFF;
+  color: #08090B;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 600;
+  border-radius: 14px;
+  border: 1.5px solid rgba(8, 9, 11, 0.16);
+  box-shadow: 0 3px 0 rgba(8, 9, 11, 0.12);
+  transition: transform 0.1s ease, box-shadow 0.1s ease, border-color 0.15s ease;
+}
+
+.btn-tactile-secondary:hover:not(:disabled) {
+  border-color: rgba(8, 9, 11, 0.35);
+}
+
+.btn-tactile-secondary:active:not(:disabled) {
+  transform: translateY(1px);
+  box-shadow: 0 1px 0 rgba(8, 9, 11, 0.12);
+}
+
+.card-unseen {
+  background-color: #FFFFFF;
+  border: 1px solid rgba(8, 9, 11, 0.08);
+  border-radius: 24px;
+  box-shadow: 0 8px 30px rgba(8, 9, 11, 0.04);
+}
+
+.card-unseen-dark {
+  background-color: #08090B;
+  color: #FAF8F3;
+  border: 1px solid rgba(205, 242, 43, 0.22);
+  border-radius: 24px;
+  box-shadow: 0 14px 36px rgba(8, 9, 11, 0.22);
+}
+
+/* Subtle scanlines & film grain retained for Act I/II dark cinematic canvas */
+.exhaust-scanlines {
+  background-image: repeating-linear-gradient(
+    to bottom,
+    rgba(205, 242, 43, 0.03) 0px,
+    rgba(205, 242, 43, 0.03) 1px,
+    transparent 1px,
+    transparent 3px
+  );
+  pointer-events: none;
+}
+
+.exhaust-grain {
+  background-image: radial-gradient(rgba(250, 248, 243, 0.06) 1px, transparent 0);
+  background-size: 3px 3px;
+  opacity: 0.35;
+  pointer-events: none;
+}
+
+@keyframes exhaust-radar-sweep {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.exhaust-radar-arm {
+  animation: exhaust-radar-sweep 6s linear infinite;
+  transform-origin: center;
+}
+
+@keyframes exhaust-pulse-ring {
+  0% {
+    transform: scale(0.9);
+    opacity: 0.85;
+  }
+  70% {
+    transform: scale(1.9);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1.9);
+    opacity: 0;
+  }
+}
+
+.exhaust-gps-pulse {
+  animation: exhaust-pulse-ring 2.2s cubic-bezier(0.16, 1, 0.3, 1) infinite;
+}
+
+@keyframes exhaust-critical-dot {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.45;
+    transform: scale(1.25);
+  }
+}
+
+.exhaust-controlled-pulse {
+  animation: exhaust-critical-dot 1.8s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .exhaust-radar-arm,
+  .exhaust-gps-pulse,
+  .exhaust-controlled-pulse {
+    animation: none !important;
+  }
+}
+
+/* Leaflet styling */
+.leaflet-container {
+  background: #08090B;
+  font-family: "JetBrains Mono", monospace;
+}
+
+.react-flow__attribution {
+  display: none !important;
+}

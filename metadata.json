@@ -1,0 +1,8 @@
+{
+  "name": "EXHAUST",
+  "description": "The Forensic Mirror for Your Digital Ghost  privacy-forensics, metadata exposure analysis, and local file scrubbing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

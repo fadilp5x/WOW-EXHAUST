@@ -1,3 +1,13 @@
+# EXHAUST
+
+A forensic mirror for your digital ghost: cinematic privacy forensics and digital exposure analysis.
+
+**Live preview:** https://wwoexhuast.vercel.app/
+
+**Part of [PROJECT WOW](https://github.com/fadilp5x/PROJECT-WOW)**, the umbrella home of UNSEEN, TIME TAX, EXHAUST and SHADOWPACT.
+
+---
+
 # EXHAUST — The Forensic Mirror for Your Digital Ghost
 
 *An Initiative by Project WOW Unseen*
